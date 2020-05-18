@@ -1,5 +1,5 @@
 ### Date created
-2020/MAY/18
+2020/MAY/18 " monday"
 
 ### Project Title
 BIKESHARE PROJECT
