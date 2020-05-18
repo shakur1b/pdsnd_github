@@ -18,8 +18,8 @@ DAYS = ['sunday', 'monday', 'tuesday', 'wednesday','thursday', 'friday', 'saturd
 
 
 def get_filters():
-   
-    print('Hello! Let\'s explore some US bikeshare data!')
+   hello = "Hello! Let\'s explore some US bikeshare data!"
+    print(hello)
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True:
@@ -178,7 +178,8 @@ def user_stats(df):
     
 def display_data(df):
     i = 0
-    while (True):
+    yes = true
+    while (yes):
         A= input('\n ENTER <YES> TO SEE ROW DATA OTHERWISE <NO>.\n>')
         if (A == 'yes'):
             print (df.iloc[i:i+5])
