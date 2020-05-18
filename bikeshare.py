@@ -29,7 +29,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     month = get_user_input('GOOD,, NOW ENTER THE MONTH NAME OR YOU CAN ENTER <ALL> IF YOU WANT', MONTHS)
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week or all fo all days
     day = get_user_input('GOOD,, NOW ENTER THE DAY NAME OR YOU CAN ENTER <ALL> IF YOU WANT FOR NO DAY FILTRING', DAYS)
 
     print('-'*40)
