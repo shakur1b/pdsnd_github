@@ -177,7 +177,8 @@ def user_stats(df):
     
 def display_data(df):
     i = 0
-    while (True):
+    yes =True
+    while (yes):
         A= input('\n ENTER <YES> TO SEE ROW DATA OTHERWISE <NO>.\n>')
         if (A == 'yes'):
             print (df.iloc[i:i+5])
